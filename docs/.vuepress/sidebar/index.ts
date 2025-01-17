@@ -112,6 +112,7 @@ export default sidebar({
               collapsible: true,
               children: [
                 "optimistic-lock-and-pessimistic-lock",
+                "cas",
                 "jmm",
                 "java-thread-pool-summary",
                 "java-thread-pool-best-practices",
@@ -167,6 +168,7 @@ export default sidebar({
             "java19",
             "java20",
             "java21",
+            "java22-23",
           ],
         },
       ],
@@ -322,6 +324,7 @@ export default sidebar({
               icon: "star",
               collapsible: true,
               children: [
+                "redis-delayed-task",
                 "3-commonly-used-cache-read-and-write-strategies",
                 "redis-data-structures-01",
                 "redis-data-structures-02",
@@ -411,6 +414,7 @@ export default sidebar({
                 "spring-transaction",
                 "spring-design-patterns-summary",
                 "spring-boot-auto-assembly-principles",
+                "async",
               ],
             },
           ],

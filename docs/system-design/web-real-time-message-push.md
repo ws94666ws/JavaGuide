@@ -302,7 +302,7 @@ public static void sendMessage(String userId, String message) {
 
 Websocket 应该是大家都比较熟悉的一种实现消息推送的方式，上边我们在讲 SSE 的时候也和 Websocket 进行过比较。
 
-是一种在 TCP 连接上进行全双工通信的协议，建立客户端和服务器之间的通信渠道。浏览器和服务器仅需一次握手，两者之间就直接可以创建持久性的连接，并进行双向数据传输。
+这是一种在 TCP 连接上进行全双工通信的协议，建立客户端和服务器之间的通信渠道。浏览器和服务器仅需一次握手，两者之间就直接可以创建持久性的连接，并进行双向数据传输。
 
 ![Websocket 示意图](https://oss.javaguide.cn/github/javaguide/system-design/web-real-time-message-push/1460000042192394.png)
 
@@ -315,7 +315,7 @@ WebSocket 的工作过程可以分为以下几个步骤：
 
 另外，建立 WebSocket 连接之后，通过心跳机制来保持 WebSocket 连接的稳定性和活跃性。
 
-SpringBoot 整合 Websocket，先引入 Websocket 相关的工具包，和 SSE 相比额外的开发成本。
+SpringBoot 整合 WebSocket，先引入 WebSocket 相关的工具包，和 SSE 相比有额外的开发成本。
 
 ```xml
 <!-- 引入websocket -->
@@ -370,6 +370,22 @@ public class WebSocketServer {
                 e.printStackTrace();
             }
         }
+    }
+}
+```
+
+服务端还需要注入`ServerEndpointerExporter`，这个 Bean 就会自动注册使用了`@ServerEndpoint`注解的 WebSocket 服务器。
+
+```java
+@Configuration
+public class WebSocketConfiguration {
+
+    /**
+     * 用于注册使用了 @ServerEndpoint 注解的 WebSocket 服务器
+     */
+    @Bean
+    public ServerEndpointExporter serverEndpointExporter() {
+        return new ServerEndpointExporter();
     }
 }
 ```

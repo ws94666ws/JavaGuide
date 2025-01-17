@@ -148,7 +148,7 @@ WHERE username = 'root';
 ### 删除数据
 
 - `DELETE` 语句用于删除表中的记录。
-- `TRUNCATE TABLE` 可以清空表，也就是删除所有行。
+- `TRUNCATE TABLE` 可以清空表，也就是删除所有行。说明：`TRUNCATE` 语句不属于 DML 语法而是 DDL 语法。
 
 **删除表中的指定数据**
 
@@ -257,11 +257,11 @@ ORDER BY cust_name DESC;
 **使用 WHERE 和 HAVING 过滤数据**
 
 ```sql
-SELECT cust_name, COUNT(*) AS num
+SELECT cust_name, COUNT(*) AS NumberOfOrders
 FROM Customers
 WHERE cust_email IS NOT NULL
 GROUP BY cust_name
-HAVING COUNT(*) >= 1;
+HAVING COUNT(*) > 1;
 ```
 
 **`having` vs `where`**：
@@ -396,7 +396,7 @@ WHERE prod_price BETWEEN 3 AND 5;
 
 **AND 示例**
 
-```ini
+```sql
 SELECT prod_id, prod_name, prod_price
 FROM products
 WHERE vend_id = 'DLL01' AND prod_price <= 4;
@@ -867,7 +867,7 @@ COMMIT;
 
 ## 权限控制
 
-要授予用户帐户权限，可以用`GRANT`命令。有撤销用户的权限，可以用`REVOKE`命令。这里以 MySQl 为例，介绍权限控制实际应用。
+要授予用户帐户权限，可以用`GRANT`命令。要撤销用户的权限，可以用`REVOKE`命令。这里以 MySQL 为例，介绍权限控制实际应用。
 
 `GRANT`授予权限语法：
 

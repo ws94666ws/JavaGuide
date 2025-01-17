@@ -26,9 +26,9 @@ icon: project
 下面这几个项目都是非常适合 Spring Boot 初学者学习的，下面的大部分项目的总体代码架构我都看过，个人觉得还算不错，不会误导没有实际做过项目的朋友。
 
 - [paicoding](https://github.com/itwanger/paicoding)：一款好用又强大的开源社区，基于 Spring Boot 系列主流技术栈，附详细的教程。
-- [forest](https://github.com/rymcu)：下一代的知识社区系统，可以自定义专题和作品集。后端基于 SpringBoot + Shrio + MyBatis + JWT + Redis，前端基于 Vue + NuxtJS + Element-UI。
-- [vhr](https://github.com/lenve/vhr "vhr")：微人事是一个前后端分离的人力资源管理系统，项目采用 SpringBoot+Vue 开发。
+- [forest](https://github.com/rymcu/forest)：下一代的知识社区系统，可以自定义专题和作品集。后端基于 SpringBoot + Shrio + MyBatis + JWT + Redis，前端基于 Vue + NuxtJS + Element-UI。
 - [community](https://github.com/codedrinker/community)：开源论坛、问答系统，现有功能提问、回复、通知、最新、最热、消除零回复功能。功能持续更新中…… 技术栈 Spring、Spring Boot、MyBatis、MySQL/H2、Bootstrap。
+- [OneBlog](https://gitee.com/yadong.zhang/DBlog)：简洁美观、功能强大并且自适应的博客系统，支持广告位、SEO、实时通讯等功能。
 - [VBlog](https://github.com/lenve/VBlog)：V 部落，Vue+SpringBoot 实现的多用户博客管理平台!
 - [My-Blog](https://github.com/ZHENFENG13/My-Blog)： SpringBoot + Mybatis + Thymeleaf 等技术实现的 Java 博客系统，页面美观、功能齐全、部署简单及完善的代码，一定会给使用者无与伦比的体验。
 
@@ -47,8 +47,11 @@ icon: project
 
 - [PlayEdu](https://github.com/PlayEdu/PlayEdu)：一款适用于搭建内部培训平台的开源系统，旨在为企业/机构打造自己品牌的内部培训平台。
 - [HOJ](https://gitee.com/himitzh0730/hoj)：分布式架构的在线测评平台 OJ ，功能非常全面，支持刷题、训练、比赛、评测等功能。
-- [uexam](https://gitee.com/mindskip/uexam)：一个非常不错的考试系统！考试系统应用场景还挺多的，不论是对于在校大学生还是已经工作的小伙伴，并且，类似的私活也有很多。相关阅读：[《好一个 Spring Boot 开源在线考试系统！解决了我的燃眉之急》](http://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzg2OTA0Njk0OA%3D%3D%26mid%3D2247491585%26idx%3D1%26sn%3D8d3c6768c22e72d6bfcbeee9624886a7%26chksm%3Dcea1afcaf9d626dc918760289c37025ad526f6255786bc198d2402203df64c873ad7934f58df%26scene%3D178%26cur_album_id%3D1345382825083895808%23rd) 。
-- [PassJava-Platform](https://github.com/Jackson0714/PassJava-Platform)：一个基于微服务(SpringBoot、Spring Cloud)的面试刷题系统！相关阅读：[《一个基于 Spring Cloud 的面试刷题系统。面试、毕设、项目经验一网打尽》](http://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzg2OTA0Njk0OA%3D%3D%26mid%3D2247497045%26idx%3D1%26sn%3D577175bfd6c040a0df5a494fce6f9758%26chksm%3Dcea1ba9ef9d633883a2e213c0fb9a88bdc87051347d4b3fad2c2befb65d8b16e1ea81d8146dd%26scene%3D178%26cur_album_id%3D1345382825083895808%23rd)。
+- [VOJ](https://github.com/simplefanC/voj)：基于微服务架构的高性能在线评测系统。拥有本地判题服务，同时支持其它知名 OJ (HDU、POJ...) 的远程判题。采用现阶段流行技术实现，采用 Docker 容器化部署。
+- [OnlineJudge](https://github.com/SDUOJ/OnlineJudge)：基于微服务架构的在线评测系统，支持多种国际赛制支持（ICPC/OI/IOI），采用 Docker 容器化部署。
+- [sg-exam](https://gitee.com/wells2333/sg-exam)：方便易用、高颜值的教学管理平台，提供多租户、权限管理、考试、练习、在线学习等功能。
+- [uexam](https://gitee.com/mindskip/uexam)：功能全面的在线考试系统，开发部署简单快捷、界面设计友好、代码结构清晰。相关阅读：[好一个 Spring Boot 开源在线考试系统！解决了我的燃眉之急](http://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzg2OTA0Njk0OA%3D%3D%26mid%3D2247491585%26idx%3D1%26sn%3D8d3c6768c22e72d6bfcbeee9624886a7%26chksm%3Dcea1afcaf9d626dc918760289c37025ad526f6255786bc198d2402203df64c873ad7934f58df%26scene%3D178%26cur_album_id%3D1345382825083895808%23rd) 。
+- [PassJava-Platform](https://github.com/Jackson0714/PassJava-Platform)：基于微服务架构的面试刷题小程序！相关阅读：[一个基于 Spring Cloud 的面试刷题系统。面试、毕设、项目经验一网打尽](http://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzg2OTA0Njk0OA%3D%3D%26mid%3D2247497045%26idx%3D1%26sn%3D577175bfd6c040a0df5a494fce6f9758%26chksm%3Dcea1ba9ef9d633883a2e213c0fb9a88bdc87051347d4b3fad2c2befb65d8b16e1ea81d8146dd%26scene%3D178%26cur_album_id%3D1345382825083895808%23rd)。
 
 ## 商城系统
 
@@ -57,9 +60,7 @@ icon: project
 - [congomall](https://gitee.com/nageoffer/congomall)：不一样的 TOC 商城系统，SpringCloud-Alibaba 微服务架构设计，基于 DDD 领域驱动模型开发，代码设计优雅，涵盖商城核心业务。
 - [mall](https://github.com/macrozheng/mall "mall")：mall 项目是一套电商系统，包括前台商城系统及后台管理系统，基于 SpringBoot+MyBatis 实现。
 - [mall-swarm](https://github.com/macrozheng/mall-swarm "mall-swarm") : mall-swarm 是一套微服务商城系统，采用了 Spring Cloud Greenwich、Spring Boot 2、MyBatis、Docker、Elasticsearch 等核心技术，同时提供了基于 Vue 的管理后台方便快速搭建系统。
-- [onemall](https://github.com/YunaiV/onemall)：mall 商城，基于微服务的思想，构建在 B2C 电商场景下的项目实战。核心技术栈，是 Spring Boot + Dubbo 。未来，会重构成 Spring Cloud Alibaba 。
 - [litemall](https://github.com/linlinjava/litemall "litemall")：又一个小商城。litemall = Spring Boot 后端 + Vue 管理员前端 + 微信小程序用户前端 + Vue 用户移动端。
-- [xmall](https://github.com/Exrick/xmall) :基于 SOA 架构的分布式电商购物商城 前后端分离 前台商城:Vue 全家桶 后台管理系统:Spring/Dubbo/SSM/Elasticsearch/Redis/MySQL/ActiveMQ/Shiro/Zookeeper 等
 - [newbee-mall](https://github.com/newbee-ltd/newbee-mall) :newbee-mall 项目（新蜂商城）是一套电商系统，包括 newbee-mall 商城系统及 newbee-mall-admin 商城后台管理系统，基于 Spring Boot 2.X 及相关技术栈开发。
 
 ## 售票系统
